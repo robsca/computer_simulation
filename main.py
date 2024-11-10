@@ -1,5 +1,9 @@
-# Run the computer system
+# main.py
 from components.computer_system import ComputerSystem
-if __name__ == "__main__":
+
+def main():
     system = ComputerSystem()
     system.run()
+
+if __name__ == "__main__":
+    main()
